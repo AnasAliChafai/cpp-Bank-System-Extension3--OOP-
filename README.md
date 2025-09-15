@@ -12,7 +12,7 @@ It is entirely console-based and demonstrates practical usage of **classes, inhe
 
 ## Key Features
 
-### 🧑‍💻 Client Management
+### 💼 Client Management
 - Add new clients with account details.
 - Update, search, and delete clients.
 - Display all clients in a formatted list.
@@ -46,6 +46,7 @@ It is entirely console-based and demonstrates practical usage of **classes, inhe
 
 ## 📂 Project Structure
 
+```
 Banking-System/
 ├── Core/                    # Core classes
 │   ├── clsBankClient.h      # Client management
@@ -66,12 +67,12 @@ Banking-System/
     ├── TransferLog.txt      # Logs of account transfers
     ├── Currencies.txt       # Currency exchange rates (e.g., France#//#EUR#//#Euro#//#0.900000)
     └── LoginLog.txt         # Login history with timestamp and details
-
+```
 
 
 ---
 
-## 📂 Data Files
+## 📝 Data Files
 
 - **Client.txt** → Stores client records:  
 
