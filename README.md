@@ -47,20 +47,26 @@ It is entirely console-based and demonstrates practical usage of **classes, inhe
 ## 📂 Project Structure
 
 Banking-System/
-├── Core/ # Core classes
-│ ├── clsBankClient.h # Client management
-│ ├── clsCurrency.h # Currency operations
-│ ├── clsPerson.h # Base person class
-│ ├── clsUser.h # User management
-│ └── clsDate.h # Date handling
-├── Screens/ # UI screens
-│ ├── Client/ # Client operations
-│ ├── Currencies/ # Currency exchange
-│ ├── User/ # User management
-│ └── LoginRegister.h # Authentication
+├── Core/                    # Core classes
+│   ├── clsBankClient.h      # Client management
+│   ├── clsCurrency.h        # Currency operations
+│   ├── clsPerson.h          # Base person class
+│   ├── clsUser.h            # User management
+│   └── clsDate.h            # Date handling
+├── Screens/                 # UI screens
+│   ├── Client/              # Client operations
+│   ├── Currencies/          # Currency exchange
+│   ├── User/                # User management
+│   └── LoginRegister.h      # Authentication
 ├── Source Files/
-│ └── Main.cpp # Application entry point
-└── Data Files/ # Storage files (Bank.txt, Users.txt, TransferLog.txt)
+│   └── Main.cpp             # Application entry point
+└── Data Files/              # Storage files
+    ├── Bank.txt             # Client records
+    ├── Users.txt            # User login and permissions
+    ├── TransferLog.txt      # Logs of account transfers
+    ├── Currencies.txt       # Currency exchange rates (e.g., France#//#EUR#//#Euro#//#0.900000)
+    └── LoginLog.txt         # Login history with timestamp and details
+
 
 
 ---
