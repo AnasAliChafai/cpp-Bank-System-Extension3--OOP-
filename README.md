@@ -60,7 +60,7 @@ Banking-System/
 │   ├── User/                # User management
 │   └── LoginRegister.h      # Authentication
 ├── Source Files/
-│   └── Main.cpp             # Application entry point
+│   └── C11v2.cpp             # Application entry point
 └── Data Files/              # Storage files
     ├── Bank.txt             # Client records
     ├── Users.txt            # User login and permissions
