@@ -86,6 +86,18 @@ Banking-System/
 
 ---
 
+### 🏛️ Architecture
+
+This project is inspired by the **3-Tier Architecture** design:
+
+- **Presentation Layer (Screens/)** → Handles the console UI and user interaction.  
+- **Business Logic Layer (Core/)** → Contains the core classes and validation logic (OOP principles applied).  
+- **Data Layer (Data Files/)** → Text files (`Bank.txt`, `Users.txt`, `TransferLog.txt`, etc.) that store application data.  
+
+Even though it's a console application, I tried to structure it in a way that follows the 3-tier separation of concerns.
+
+---
+
 ## How to Run
 
 1. Clone this repository.  
